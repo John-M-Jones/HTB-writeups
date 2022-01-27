@@ -36,20 +36,20 @@ In order to access the webpage I had to add the following line to my /etc/hosts 
 
 When first accessing the page we are greeted with the following.
 
-![[Pasted image 20220127022457.png]]
+![Homepage](/Images/homepage.png)
 
 Lets explore the upload image functionality.
 
 # Uploading Images
 
-![[Pasted image 20220127062054.png]]
+![upload](/Images/upload.png)
 
 There are two ways for us to upload images to the website, via local file and via URL. I chose to start by examining the local file upload
 
 ## local file
 When we upload an image, a link is returned to us. When the link is clicked we are able to view the image. 
 
-![[Pasted image 20220127062324.png]]
+![success](/Images/success.png)
 
 ### testing common image upload vulnerabilities
 When I began working on this box, I first tested for common image upload vulnerabilities. 
@@ -67,7 +67,7 @@ Contents:
 
 Annnnd we get the following error when trying to view the uploaded image
 
-![[Pasted image 20220127062221.png]]
+![error](/Images/error.png)
 
 Before we move on though lets try one more thing, appending the png magic bytes onto our file. If you Are unfamiliar with Magic bytes, they are series of 8 bytes at the start of each file that identify the file type. For more information, check out this article [here](https://medium.com/@d.harish008/what-is-a-magic-byte-and-how-to-exploit-1e286da1c198)
 
@@ -161,7 +161,7 @@ admin                   [Status: 200, Size: 27, Words: 4, Lines: 2]
 
 When trying to view the page in my web browser I got the following:
 
-![[Pasted image 20220127062708.png]]
+![admin page](/Images/admin.png)
 
 Once again this points to SSRF, By using SSRF I will be able to make a request to this page from localhost as the request will first be routed through the server.
 

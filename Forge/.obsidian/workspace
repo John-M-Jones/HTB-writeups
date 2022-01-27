@@ -1,0 +1,98 @@
+{
+  "main": {
+    "id": "5e09b08cb7d8ab82",
+    "type": "split",
+    "children": [
+      {
+        "id": "bd16b56a5614fb30",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "forge.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "af1d1cd60e39c2e5",
+    "type": "split",
+    "children": [
+      {
+        "id": "eb46583a59f4dfa9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0f73bb1bb33c9728",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "7a63a536a1bbf378",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f23accaa7ecd8033",
+    "type": "split",
+    "children": [
+      {
+        "id": "26486baf471ac9d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0f796ff600800552",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "forge.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "bd16b56a5614fb30",
+  "lastOpenFiles": [
+    "forge.md",
+    "Pasted image 20220127062324.png.md",
+    "Pasted image 20220127022457.png.md",
+    "Images/Pasted image 20220127062309.png",
+    "Images/success.png"
+  ]
+}
